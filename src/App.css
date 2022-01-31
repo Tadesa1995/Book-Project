@@ -1,0 +1,32 @@
+.App{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+}
+.nav{
+list-style-type: none;
+width: 500px;
+display: flex;
+justify-content: space-evenly;
+}
+a{
+  text-decoration:red;
+  color:#000;
+}
+.eror{
+  color:blue;
+}
+.Footers{
+  list-style-type:none;
+  margin-inline-end: none;
+
+}
+.social-container{
+  background: rgb(158, 25, 25);
+  padding: 25px 50px;
+
+}
+a.social{
+  margin:0 1rem;
+  transition:transform 250ms;
+}
